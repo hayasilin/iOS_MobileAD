@@ -12,6 +12,14 @@
 		AC137AF71FF73EF800CA199A /* MobileAD.h in Headers */ = {isa = PBXBuildFile; fileRef = AC137AE91FF73EF700CA199A /* MobileAD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC137B011FF73F0900CA199A /* TestDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B001FF73F0900CA199A /* TestDemo.swift */; };
 		AC137B211FF747AC00CA199A /* DemoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B201FF747AC00CA199A /* DemoTest.swift */; };
+		AC137B291FF7494D00CA199A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B281FF7494D00CA199A /* AppDelegate.swift */; };
+		AC137B2B1FF7494D00CA199A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B2A1FF7494D00CA199A /* ViewController.swift */; };
+		AC137B2E1FF7494D00CA199A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC137B2C1FF7494D00CA199A /* Main.storyboard */; };
+		AC137B301FF7494D00CA199A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC137B2F1FF7494D00CA199A /* Assets.xcassets */; };
+		AC137B331FF7494D00CA199A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC137B311FF7494D00CA199A /* LaunchScreen.storyboard */; };
+		AC137B381FF7495900CA199A /* MobileAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC137AE61FF73EF700CA199A /* MobileAD.framework */; };
+		AC137B391FF7495900CA199A /* MobileAD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC137AE61FF73EF700CA199A /* MobileAD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AC137B3E1FF749FD00CA199A /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B3D1FF749FD00CA199A /* TestUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +30,28 @@
 			remoteGlobalIDString = AC137AE51FF73EF700CA199A;
 			remoteInfo = MobileAD;
 		};
+		AC137B3A1FF7495900CA199A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC137ADD1FF73EF700CA199A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC137AE51FF73EF700CA199A;
+			remoteInfo = MobileAD;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AC137B3C1FF7495900CA199A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AC137B391FF7495900CA199A /* MobileAD.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AC137AE61FF73EF700CA199A /* MobileAD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MobileAD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +62,14 @@
 		AC137AF61FF73EF800CA199A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC137B001FF73F0900CA199A /* TestDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDemo.swift; sourceTree = "<group>"; };
 		AC137B201FF747AC00CA199A /* DemoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTest.swift; sourceTree = "<group>"; };
+		AC137B261FF7494D00CA199A /* MobileAD-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MobileAD-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC137B281FF7494D00CA199A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC137B2A1FF7494D00CA199A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC137B2D1FF7494D00CA199A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC137B2F1FF7494D00CA199A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC137B321FF7494D00CA199A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC137B341FF7494D00CA199A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC137B3D1FF749FD00CA199A /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +88,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC137B231FF7494D00CA199A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC137B381FF7495900CA199A /* MobileAD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +104,7 @@
 			children = (
 				AC137AE81FF73EF700CA199A /* MobileAD */,
 				AC137AF31FF73EF800CA199A /* MobileADTests */,
+				AC137B271FF7494D00CA199A /* MobileAD-Demo */,
 				AC137AE71FF73EF700CA199A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +114,7 @@
 			children = (
 				AC137AE61FF73EF700CA199A /* MobileAD.framework */,
 				AC137AEF1FF73EF800CA199A /* MobileADTests.xctest */,
+				AC137B261FF7494D00CA199A /* MobileAD-Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +126,7 @@
 				AC137AEA1FF73EF700CA199A /* Info.plist */,
 				AC137B001FF73F0900CA199A /* TestDemo.swift */,
 				AC137B201FF747AC00CA199A /* DemoTest.swift */,
+				AC137B3D1FF749FD00CA199A /* TestUI.swift */,
 			);
 			path = MobileAD;
 			sourceTree = "<group>";
@@ -90,6 +138,19 @@
 				AC137AF61FF73EF800CA199A /* Info.plist */,
 			);
 			path = MobileADTests;
+			sourceTree = "<group>";
+		};
+		AC137B271FF7494D00CA199A /* MobileAD-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AC137B281FF7494D00CA199A /* AppDelegate.swift */,
+				AC137B2A1FF7494D00CA199A /* ViewController.swift */,
+				AC137B2C1FF7494D00CA199A /* Main.storyboard */,
+				AC137B2F1FF7494D00CA199A /* Assets.xcassets */,
+				AC137B311FF7494D00CA199A /* LaunchScreen.storyboard */,
+				AC137B341FF7494D00CA199A /* Info.plist */,
+			);
+			path = "MobileAD-Demo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +203,25 @@
 			productReference = AC137AEF1FF73EF800CA199A /* MobileADTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AC137B251FF7494D00CA199A /* MobileAD-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC137B371FF7494D00CA199A /* Build configuration list for PBXNativeTarget "MobileAD-Demo" */;
+			buildPhases = (
+				AC137B221FF7494D00CA199A /* Sources */,
+				AC137B231FF7494D00CA199A /* Frameworks */,
+				AC137B241FF7494D00CA199A /* Resources */,
+				AC137B3C1FF7495900CA199A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC137B3B1FF7495900CA199A /* PBXTargetDependency */,
+			);
+			name = "MobileAD-Demo";
+			productName = "MobileAD-Demo";
+			productReference = AC137B261FF7494D00CA199A /* MobileAD-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,6 +241,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					AC137B251FF7494D00CA199A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = AC137AE01FF73EF700CA199A /* Build configuration list for PBXProject "MobileAD" */;
@@ -169,6 +253,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = AC137ADC1FF73EF700CA199A;
 			productRefGroup = AC137AE71FF73EF700CA199A /* Products */;
@@ -177,6 +262,7 @@
 			targets = (
 				AC137AE51FF73EF700CA199A /* MobileAD */,
 				AC137AEE1FF73EF800CA199A /* MobileADTests */,
+				AC137B251FF7494D00CA199A /* MobileAD-Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +282,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC137B241FF7494D00CA199A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC137B331FF7494D00CA199A /* LaunchScreen.storyboard in Resources */,
+				AC137B301FF7494D00CA199A /* Assets.xcassets in Resources */,
+				AC137B2E1FF7494D00CA199A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -204,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC137B211FF747AC00CA199A /* DemoTest.swift in Sources */,
+				AC137B3E1FF749FD00CA199A /* TestUI.swift in Sources */,
 				AC137B011FF73F0900CA199A /* TestDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +313,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC137B221FF7494D00CA199A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC137B2B1FF7494D00CA199A /* ViewController.swift in Sources */,
+				AC137B291FF7494D00CA199A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -224,7 +330,31 @@
 			target = AC137AE51FF73EF700CA199A /* MobileAD */;
 			targetProxy = AC137AF11FF73EF800CA199A /* PBXContainerItemProxy */;
 		};
+		AC137B3B1FF7495900CA199A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC137AE51FF73EF700CA199A /* MobileAD */;
+			targetProxy = AC137B3A1FF7495900CA199A /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC137B2C1FF7494D00CA199A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC137B2D1FF7494D00CA199A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC137B311FF7494D00CA199A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC137B321FF7494D00CA199A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AC137AF81FF73EF800CA199A /* Debug */ = {
@@ -415,6 +545,38 @@
 			};
 			name = Release;
 		};
+		AC137B351FF7494D00CA199A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G62233X968;
+				INFOPLIST_FILE = "MobileAD-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cracktheterm.MobileAD-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC137B361FF7494D00CA199A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G62233X968;
+				INFOPLIST_FILE = "MobileAD-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cracktheterm.MobileAD-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -441,6 +603,15 @@
 			buildConfigurations = (
 				AC137AFE1FF73EF800CA199A /* Debug */,
 				AC137AFF1FF73EF800CA199A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC137B371FF7494D00CA199A /* Build configuration list for PBXNativeTarget "MobileAD-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC137B351FF7494D00CA199A /* Debug */,
+				AC137B361FF7494D00CA199A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
