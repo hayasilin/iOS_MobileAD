@@ -28,6 +28,10 @@ class MobileADTests: XCTestCase {
         let testDemo = TestDemo()
         testDemo.doTest()
         testDemo.doSome()
+        
+        let demoTest = DemoTest()
+        demoTest.doDemo()
+        demoTest.dohaha()
     }
     
     func testPerformanceExample() {

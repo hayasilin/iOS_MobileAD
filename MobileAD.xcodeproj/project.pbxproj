@@ -11,6 +11,7 @@
 		AC137AF51FF73EF800CA199A /* MobileADTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137AF41FF73EF800CA199A /* MobileADTests.swift */; };
 		AC137AF71FF73EF800CA199A /* MobileAD.h in Headers */ = {isa = PBXBuildFile; fileRef = AC137AE91FF73EF700CA199A /* MobileAD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC137B011FF73F0900CA199A /* TestDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B001FF73F0900CA199A /* TestDemo.swift */; };
+		AC137B211FF747AC00CA199A /* DemoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B201FF747AC00CA199A /* DemoTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		AC137AF41FF73EF800CA199A /* MobileADTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileADTests.swift; sourceTree = "<group>"; };
 		AC137AF61FF73EF800CA199A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC137B001FF73F0900CA199A /* TestDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDemo.swift; sourceTree = "<group>"; };
+		AC137B201FF747AC00CA199A /* DemoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				AC137AE91FF73EF700CA199A /* MobileAD.h */,
 				AC137AEA1FF73EF700CA199A /* Info.plist */,
 				AC137B001FF73F0900CA199A /* TestDemo.swift */,
+				AC137B201FF747AC00CA199A /* DemoTest.swift */,
 			);
 			path = MobileAD;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC137B211FF747AC00CA199A /* DemoTest.swift in Sources */,
 				AC137B011FF73F0900CA199A /* TestDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MobileAD"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "A quick tool to create in-app MobileAD."
 
   s.description  = <<-DESC
