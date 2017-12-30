@@ -20,6 +20,7 @@
 		AC137B381FF7495900CA199A /* MobileAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC137AE61FF73EF700CA199A /* MobileAD.framework */; };
 		AC137B391FF7495900CA199A /* MobileAD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AC137AE61FF73EF700CA199A /* MobileAD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AC137B3E1FF749FD00CA199A /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B3D1FF749FD00CA199A /* TestUI.swift */; };
+		AC137B401FF75AE200CA199A /* MADInterstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC137B3F1FF75AE200CA199A /* MADInterstitial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		AC137B321FF7494D00CA199A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC137B341FF7494D00CA199A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC137B3D1FF749FD00CA199A /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
+		AC137B3F1FF75AE200CA199A /* MADInterstitial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MADInterstitial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				AC137B001FF73F0900CA199A /* TestDemo.swift */,
 				AC137B201FF747AC00CA199A /* DemoTest.swift */,
 				AC137B3D1FF749FD00CA199A /* TestUI.swift */,
+				AC137B3F1FF75AE200CA199A /* MADInterstitial.swift */,
 			);
 			path = MobileAD;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				AC137B211FF747AC00CA199A /* DemoTest.swift in Sources */,
 				AC137B3E1FF749FD00CA199A /* TestUI.swift in Sources */,
+				AC137B401FF75AE200CA199A /* MADInterstitial.swift in Sources */,
 				AC137B011FF73F0900CA199A /* TestDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
